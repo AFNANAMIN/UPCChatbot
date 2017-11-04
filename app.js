@@ -1,15 +1,15 @@
 //Parámetros a modificar
 var url = 'https://gateway.watsonplatform.net/conversation/api'; //NO SE CAMBIA
 
-var wcUser = 'a83d9790-d81e-4323-918e-bf08cbea3be8'; //Usuario de Watson Conversation
-var wcPassword = 'Ycd2kfGUVATc'; //Password de Watson conversation
+var wcUser = 'watsonConversationUser'; //Usuario de Watson Conversation
+var wcPassword = 'watsonConversationPassword'; //Password de Watson conversation
 var versionDate = '2017-05-26'; // NO SE CAMBIA
 
-var conversationWorkspace = 'cdb86006-8b33-45a9-994e-53c7b543189b'; //Este es el ID del workspace
+var conversationWorkspace = 'conversationWorkspaceId'; //Este es el ID del workspace
 
 var token = "EAAE69q03ZAUkBAJN00paTWNWmQWiFxxHnQHOs1mejk8oeK3VFEis2e1ZCk9zqgKM2GzApDSGQdXZAZAqEWlc4wKOVDflXRfBpAl3coquXNfPixmbALruged2RaWNqI62x33yOXdBQ0lHOK1XU4BvoeE327ZBmRRSYGlMX31BK0wZDZD";
-var speechUser = "510c6d8c-4ac0-47a0-866e-83bf720088ed"; //usuario del Speech to Text
-var speechPassword = "DDyPjmkK4TVZ"; //password del speech to text
+var speechUser = "speechToTextUser"; //usuario del Speech to Text
+var speechPassword = "speechToTextPassword"; //password del speech to text
 
 var original_ffmpeg = require ('ffmpeg');
 var ffmpeg = require('fluent-ffmpeg');
