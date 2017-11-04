@@ -26,5 +26,7 @@ La fuente de inspiración de este chatbot (y quién me ayudo a entender mejor lo
   5. Por defecto te dejé listo el puerto 3000. Corre NGROK con el comando "ngrok http 3000"
   6. Ahora tu chatbot está expuesto a la nube y listo para ser llamado desde facebook (Debido a que los demás pasos requieren ayuda visual, adjunto un vídeo con toda la configuración)
   
+  # Agradecimientos
   
+  Un agradecimiento muy grande a Franz Portocarrero porque tuvo que escucharme hablarme durante días sobre chatbots y todavía me dirige la palabra.
 
