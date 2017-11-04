@@ -12,8 +12,19 @@ La fuente de inspiración de este chatbot (y quién me ayudo a entender mejor lo
 # Prerrequisitos:
   1. Node-js
   2. Cuenta de bluemix (La de trial también funciona)
-  3. 
+  3. NGROK para poder exponer Node.js a través de un tunnel
+  4. Mucho amor por la investigación ;D
+  
 # Guía de configuración:
+  UPDATE: Vídeo de youtube: https://youtu.be/T4pcNiLYXxw
+  
+  
   1. Descarga estos archivos en una carpeta (Por defecto será UPCChatbot)
-  2.
+  2. Sitúate en la carpeta en una línea de comandos CMD y escribe "npm install"
+  3. Espera a que la instalación termine y NO CIERRES LA VENTANA
+  4. En la misma ventana escribe "node app.js"
+  5. Por defecto te dejé listo el puerto 3000. Corre NGROK con el comando "ngrok http 3000"
+  6. Ahora tu chatbot está expuesto a la nube y listo para ser llamado desde facebook (Debido a que los demás pasos requieren ayuda visual, adjunto un vídeo con toda la configuración)
+  
+  
 
