@@ -4,12 +4,10 @@ var url = 'https://gateway.watsonplatform.net/conversation/api'; //NO SE CAMBIA
 var wcUser = 'watsonConversationUser'; //Usuario de Watson Conversation
 var wcPassword = 'watsonConversationPassword'; //Password de Watson conversation
 var versionDate = '2017-05-26'; // NO SE CAMBIA
-
 var conversationWorkspace = 'conversationWorkspaceId'; //Este es el ID del workspace
-
-var token = "EAAE69q03ZAUkBAJN00paTWNWmQWiFxxHnQHOs1mejk8oeK3VFEis2e1ZCk9zqgKM2GzApDSGQdXZAZAqEWlc4wKOVDflXRfBpAl3coquXNfPixmbALruged2RaWNqI62x33yOXdBQ0lHOK1XU4BvoeE327ZBmRRSYGlMX31BK0wZDZD";
 var speechUser = "speechToTextUser"; //usuario del Speech to Text
 var speechPassword = "speechToTextPassword"; //password del speech to text
+var token = "placefbTokenHere";
 
 var original_ffmpeg = require ('ffmpeg');
 var ffmpeg = require('fluent-ffmpeg');
